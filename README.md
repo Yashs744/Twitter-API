@@ -1,15 +1,17 @@
 # Twitter-API
 Using Python-Twitter Library and Twitter API to access twitter and gather data from different users.
 
-Requirement:
-           > python-twitter, csv
-           
-           '''
-           pip install python-twitter
-           pip install csv
-           '''
-           or 
-           '''pip install -r requirements.txt'''
+Requirements
+> python-twitter, csv
+
+```
+pip install python-twitter
+pip install csv
+
+or
+
+pip install -r requirements.txt
+```
 
 **OAuth.py** - It contains the class TwitterAPI which call the Twitter API and returns api object.
            We pass 4 keys (consumer key, consumer secret, access token, access token secret) to the twitter.Api() function
